@@ -1,0 +1,10 @@
+{
+  "name": "Warning old Android Let's Encrypt",
+  "about_url": "https://meta.discourse.org/t/warning-banner-for-old-android-devices-affected-by-lets-encrypt-changes/173274",
+  "license_url": null,
+  "component": true,
+  "assets": {
+  },
+  "color_schemes": {
+  }
+}

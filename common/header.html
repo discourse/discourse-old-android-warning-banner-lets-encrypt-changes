@@ -1,0 +1,7 @@
+<script type="text/discourse-plugin" version="0.8">
+  const match = navigator.userAgent.toLowerCase().match(/android\s([0-9\.]*)/i);
+
+  if (match && parseInt(match[1]) < 8 && !['7.1.1', '7.1.2'].includes(match[1])) {
+    api.addGlobalNotice(null, 'android-warning', {html: settings.warning_content, level: settings.warning_level, dismissable: true, persistentDismiss: settings.persistent_dismiss});
+  }
+</script>
